@@ -1,4 +1,4 @@
-# Parallel Word Counter
+# Parallel Word Count
 
 This project demonstrates **Inter-Process Communication (IPC)** and **Shared Memory** concepts in C++ using POSIX APIs to build a distributed word counting system. It simulates a scenario where "Producer" processes read large text files, tokenize them into words, and write these words to a shared memory segment. "Consumer" processes then read these words from shared memory, count their frequencies, and output individual summaries, which are finally aggregated by a dedicated "Aggregator" process.
 
